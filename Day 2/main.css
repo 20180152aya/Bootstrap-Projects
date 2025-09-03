@@ -1,0 +1,65 @@
+
+.stylish-text {
+  font-family: 'Poppins', sans-serif; 
+  font-size: 1.6rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.stylish-text span,
+.span-footer {
+  color: #ffd700;
+}
+
+.stylish-text:hover {
+  color: #ffeb3b;
+  transform: scale(1.05);
+}
+
+.hero {
+  background: url('./images/home1.webp') no-repeat center center/cover;
+  height: 80vh; 
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  height: 100%;
+}
+
+.hero .content {
+  z-index: 2;
+}
+.btn-custom {
+  background: linear-gradient(45deg, #007bff, #00c6ff);
+  border: none;
+  padding: 12px 25px;
+  font-size: 18px;
+  border-radius: 30px;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn-custom:hover,
+.enroll-btn:hover {
+  background: linear-gradient(45deg, #00c6ff, #007bff);
+  transform: scale(1.05);
+}
+
+.hero h1 i,
+.hero p i {
+  color: #ffd700; 
+  margin-right: 10px;
+}
+/* .course-categories{
+  background-color: lightblue;
+} */
+.col-md-4{
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+.col-md-4:hover{
+  transform: scale(1.1);
+}

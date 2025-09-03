@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EduWay</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+  <style>
+    .navbar-brand img {
+      height: 100px;
+      width: 120px;
+      display: block;
+    }
+
+    .navbar {
+      padding-top: 0.35rem;
+      padding-bottom: 0.35rem;
+    }
+
+    .nav-item {
+      margin-right: 20px !important;
+    }
+
+    .nav-item a:hover {
+      border-bottom: 1px solid white;
+    }
+  </style>
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+
+    <a class="navbar-brand fw-bold stylish-text ms-3" href="#">
+      Edu<span>Way</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-4 text-uppercase">
+        <li class="nav-item border-bottom border-1"><a class="nav-link active text-white" href="./index.html">Home</a>
+        </li>
+        <li class="nav-item"><a class="nav-link text-white" href="#categories">Courses</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#footer">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section class="hero d-flex align-items-center justify-content-center position-relative">
+    <div class="overlay d-flex align-items-center justify-content-center">
+      <div class="content text-center text-white">
+        <h1><i class="fas fa-graduation-cap"></i> Welcome to EduWay</h1>
+        <p><i class="fas fa-lightbulb"></i> Your path to knowledge starts here</p>
+        <button class="btn btn-custom">
+          <i class="fas fa-book-open"></i> Explore Courses
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section class="course-categories py-5 text-uppercase" id="categories">
+    <div class="container text-center">
+      <h2 class="mb-5 text-primary fw-bold">Course Categories</h2>
+      <div class="row g-4">
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="https://cdn-icons-png.flaticon.com/512/2721/2721295.png" alt="Programming" width="50">
+              </div>
+              <h5 class="card-title text-primary">Programming</h5>
+              <p class="card-text text-muted">Learn coding languages like Python, Java, and more to build apps and
+                websites.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="./images/ux.png" alt="Design" width="50">
+              </div>
+              <h5 class="card-title text-primary">Design</h5>
+              <p class="card-text text-muted">Explore UI/UX design, graphic tools, and creative skills for digital
+                products.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Marketing" width="50">
+              </div>
+              <h5 class="card-title text-primary">Marketing</h5>
+              <p class="card-text text-muted">Master digital marketing, SEO, and social media strategies to grow
+                businesses.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="./images/developer.png" alt="Css" width="50">
+              </div>
+              <h5 class="card-title text-primary">Cascading Style Sheets</h5>
+              <p class="card-text text-muted">CSS is used to style web pages by controlling colors, fonts, layouts, and
+                overall design.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="./images/javascript.png" alt="JaveScripting" width="50">
+              </div>
+              <h5 class="card-title text-primary">JaveScript</h5>
+              <p class="card-text text-muted">JavaScript is a programming language that makes web pages interactive and
+                dynamic.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow border-0 rounded-3">
+            <div class="card-body">
+              <div class="icon-circle mb-3">
+                <img src="./images/media.png" alt="Bootstrap" width="50">
+              </div>
+              <h5 class="card-title text-primary">Bootstrap</h5>
+              <p class="card-text text-muted">Bootstrap helps create responsive and modern websites quickly.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-courses py-5">
+    <div class="container text-center">
+      <h2 class="mb-4 text-primary fw-bold text-uppercase">Featured Courses</h2>
+
+      <div class="row gx-4 gy-4">
+
+        <div class="col-md-4 d-flex">
+          <div class="card h-100 d-flex flex-column course-card flex-fill">
+            <img src="./images/python.webp" height="200px" class="card-img-top course-img" alt="Course image">
+            <div class="card-body d-flex flex-column">
+              <div>
+                <h5 class="card-title">Intro to Python</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Instructor: Ahmed Ali</h6>
+                <p class="card-text text-muted small">Learn basics of Python programming: variables, loops, and
+                  functions.</p>
+              </div>
+              <button class="btn btn-primary w-100 mt-auto enroll-btn">Enroll</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="card h-100 d-flex flex-column course-card flex-fill">
+            <img src="./images/ux-design.webp" height="200px" class="card-img-top course-img" alt="Course image">
+            <div class="card-body d-flex flex-column">
+              <div>
+                <h5 class="card-title">UI/UX Design Basics</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Instructor: Sara Mahmoud</h6>
+                <p class="card-text text-muted small">Discover fundamentals of user interface and user experience
+                  design.</p>
+              </div>
+              <button class="btn btn-primary w-100 mt-auto enroll-btn">Enroll</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 d-flex">
+          <div class="card h-100 d-flex flex-column course-card flex-fill">
+            <img src="./images/SMM-Course-Cover.webp" height="200px" class="card-img-top course-img" alt="Course image">
+            <div class="card-body d-flex flex-column">
+              <div>
+                <h5 class="card-title">Digital Marketing</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Instructor: Mohamed Zaki</h6>
+                <p class="card-text text-muted small">Learn SEO, social media strategies, and growth tactics.</p>
+              </div>
+              <button class="btn btn-primary w-100 mt-auto enroll-btn text-uppercase">Enroll</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="student-feedback py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4 text-primary fw-bold text-uppercase">Student Feedbacks</h2>
+
+    <div id="feedbackCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/person2.webp" class="rounded-circle mb-3" alt="Student 1" width="200" height="200">
+            <h5 class="fw-bold">Mona Hassan</h5>
+            <p class="text-muted w-75 mx-auto">
+              "This platform helped me learn Python easily. The instructors explain clearly and the projects are practical."
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/person1.webp" class="rounded-circle mb-3" alt="Student 2" width="200" height="200">
+            <h5 class="fw-bold">Omar Ali</h5>
+            <p class="text-muted w-75 mx-auto">
+              "The UI/UX course improved my design skills. I can now build user-friendly apps with confidence."
+            </p>
+          </div>
+        </div>
+
+        
+        <div class="carousel-item">
+          <div class="d-flex flex-column align-items-center">
+            <img src="./images/person3.webp" class="rounded-circle mb-3" alt="Student 3" width="200" height="200">
+            <h5 class="fw-bold">Sara Mohamed</h5>
+            <p class="text-muted w-75 mx-auto">
+              "Amazing courses! The instructors are very supportive and the content is well-structured."
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#feedbackCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-primary rounded-circle p-3" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<section class="faq-section py-5">
+  <div class="container">
+    <h2 class="text-center mb-4 text-primary fw-bold text-uppercase">Frequently Asked Questions</h2>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            What is EduWay?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show"
+          aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            EduWay is an online learning platform offering courses in programming, design, and business.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            How do I enroll in a course?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Simply click the "Enroll" button on the course card and follow the instructions to register.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Are the courses free?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Some courses are free, while others require a small fee depending on the instructor and course type.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Do I get a certificate after completing a course?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse"
+          aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes, after successfully completing a course, you will receive a certificate of completion.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer class="footer bg-dark text-white py-5" id="footer">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-uppercase mb-3">About EduWay</h5>
+        <p class="small text-muted">
+          EduWay is an online learning platform that helps students and professionals enhance their skills
+          in programming, design, business, and more.
+        </p>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-uppercase mb-3">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Courses</a></li>
+          <li><a href="#" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold text-uppercase mb-3">Contact Us</h5>
+        <p class="mb-1"><i class="bi bi-envelope me-2"></i> info@eduway.com</p>
+        <p class="mb-1"><i class="bi bi-telephone me-2"></i> +20 123 456 789</p>
+        <p><i class="bi bi-geo-alt me-2"></i> Cairo, Egypt</p>
+      </div>
+
+    </div>
+    <div class="text-center mt-4 border-top pt-3">
+      <p class="mb-0 small text-muted">&copy; 2025 Edu<span class="span-footer">Way</span> . All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
